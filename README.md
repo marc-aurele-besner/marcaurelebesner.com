@@ -1,4 +1,6 @@
-# Marc-Aurele Besner Website (made w/ React JS Landing Page Template)
+# Marc-Aurele Besner Website 
+
+## Made w/ React JS Landing Page Template (https://github.com/issaafalkattan/React-Landing-Page-Template)
 
 ## Description
 This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
@@ -18,6 +20,6 @@ You can also change styles by modifying the ```public/css``` files.
 ## Credits
 
 ##### React JS Landing Page Template
-<a href="https://github.com/PlantSwapFinance/React-Landing-Page-Template">React JS Landing Page Template </a>
+<a href="https://github.com/issaafalkattan/React-Landing-Page-Template">React JS Landing Page Template </a>
 ##### Free CSS 
 <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
