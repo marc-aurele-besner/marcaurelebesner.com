@@ -16,7 +16,8 @@ You can also change styles by modifying the ```public/css``` files.
 
 
 ## Credits
+
+##### React JS Landing Page Template
+<a href="https://github.com/PlantSwapFinance/React-Landing-Page-Template">React JS Landing Page Template </a>
 ##### Free CSS 
 <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-
-##### Issaaf kattan
