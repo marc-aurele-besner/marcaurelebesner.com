@@ -41,7 +41,7 @@ export const Contact = (props) => {
               <div className='section-title'>
                 <h2>Get In Touch</h2>
                 <p>
-                  Please fill out the form below to send ume an email and I will
+                  Please fill out the form below to send me an email and I will
                   get back to you as soon as possible.
                 </p>
               </div>
