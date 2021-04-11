@@ -109,7 +109,7 @@ export const Contact = (props) => {
         <div id='footer'>
           <div className='container text-center'>
             <p>
-              &copy; 2020 MarcAureleBesner.com &nbsp;
+              &copy; 2021 MarcAureleBesner.com &nbsp;
               <a href='https://github.com/marc-aurele-besner/marcaurelebesner.com' rel='nofollow'>
                 GitHub
               </a>
