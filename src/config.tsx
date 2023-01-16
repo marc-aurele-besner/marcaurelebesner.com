@@ -1,8 +1,9 @@
 import Head from 'next/head'
 
-const titleDefault = 'React Three Next Typescript Starter'
-const url = 'https://react-three-next-ts.netlify.app/'
-const description = 'The easiest and fastest way to create a 3D website using React Three Fiber and NextJS'
+const titleDefault = 'Marc-Aurèle BESNER'
+const url = 'https://v3-wip.marcaurelebesner.com/'
+const description =
+  '🚀 Full-Stack Web3 & Solidity Engineer | Passionate about Building Innovative Blockchain Solutions and Empowering Developers 💻⚙️'
 const author = 'Author'
 
 const Header = ({ title = titleDefault }) => {
@@ -21,7 +22,7 @@ const Header = ({ title = titleDefault }) => {
       <meta name='description' content={description} />
       <meta
         name='keywords'
-        content='Software Engineer,Product Manager,Project Manager,Data Scientist,Computer Scientist'
+        content='Full-Stack Web3,Solidity Engineer,Smart Contract Engineer,Blockchain,Solidity,Smart Contract'
       />
       <meta name='robots' content='index,follow' />
       <meta name='distribution' content='web' />
@@ -55,7 +56,7 @@ const Header = ({ title = titleDefault }) => {
         documentation: https://dev.twitter.com/cards/getting-started
         Be sure validate your Twitter card markup on the documentation site. */}
       <meta name='twitter:card' content='summary' />
-      {/* <meta name='twitter:site' content='@onirenaud' /> */}
+      <meta name='twitter:site' content='@marcaureleb' />
     </Head>
   )
 }
