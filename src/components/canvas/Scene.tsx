@@ -11,13 +11,16 @@ interface ISceneProps {
 
 const Scene: React.FC<ISceneProps> = ({ children, ...props }) => {
   return (
-    <Canvas {...props}>
-      <directionalLight intensity={0.75} />
-      <ambientLight intensity={0.75} />
-      {children}
-      <Preload all />
-      <OrbitControls />
-    </Canvas>
+    <>
+      {/* @ts-ignore */}
+      <Canvas {...props}>
+        <directionalLight intensity={0.75} />
+        <ambientLight intensity={0.75} />
+        {children}
+        <Preload all />
+        <OrbitControls />
+      </Canvas>
+    </>
   )
 }
 
