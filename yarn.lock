@@ -2333,10 +2333,10 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.13.tgz#da4bfd73f49bd541d28920ab0e2bf0ee80f71c91"
   integrity sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==
 
-"@types/three@^0.147.1":
-  version "0.147.1"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.147.1.tgz#f81e6dfaeafee1f4b5d825e036decfa801f83097"
-  integrity sha512-1dGYrF9E7frAXu3CRUYtTFj97PlA/Q0OedDQBROn3fKjtKXNhXc6/VNgkGod3axJMeNPNFDa6ur9eOcQ+aD0zw==
+"@types/three@^0.148.0":
+  version "0.148.0"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.148.0.tgz#bf7f0f6f12a9b318eebb7dc3813ae69824e13ae6"
+  integrity sha512-1GiErjt1pJMadO8EhaxNrtULzdn+f3BbM3YTukiiXBVeRvvx4CXc2rpYdEuEBU/ouCX7Rc95j1HoVG9kFQXQJw==
   dependencies:
     "@types/webxr" "*"
 
@@ -7929,11 +7929,6 @@ luxon@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.2.1.tgz#14f1af209188ad61212578ea7e3d518d18cee45f"
   integrity sha512-QrwPArQCNLAKGO/C+ZIilgIuDnEnKx5QYODdDtbFaxzsbZcc/a7WFq7MhsVYgRlwawLtvOUESTlfJ+hc/USqPg==
-
-maath@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/maath/-/maath-0.4.2.tgz#379efb3d2fd46bb557333eabb41e4a1d2cbd2766"
-  integrity sha512-9vd9AzZY7XLM159LNyWF6v2Lu1lsnjPMlzdGy3pMKxTUg0mWePdyHjfhNi439RpLZCR33hDkdbxbbsmjWyqhIA==
 
 maath@^0.5.1:
   version "0.5.1"
