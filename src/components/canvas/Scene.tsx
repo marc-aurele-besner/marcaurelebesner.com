@@ -1,6 +1,6 @@
 import React from 'react'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Preload } from '@react-three/drei'
+import { Preload } from '@react-three/drei'
 
 interface ISceneProps {
   className?: string
@@ -18,7 +18,6 @@ const Scene: React.FC<ISceneProps> = ({ children, ...props }) => {
         <ambientLight intensity={0.75} />
         {children}
         <Preload all />
-        <OrbitControls />
       </Canvas>
     </>
   )
