@@ -128,3 +128,8 @@ dist
 
 # Local Netlify folder
 .netlify
+
+# Next Recommended
+**/public/workbox-*.js
+**/public/sw.js
+**/public/worker-*.js
