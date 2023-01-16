@@ -3,7 +3,7 @@ import React from 'react'
 const Instructions: React.FC = () => {
   return (
     <div
-      className='absolute max-w-lg px-6 py-8 text-sm bg-zinc-800 rounded-lg shadow-xl md:text-base top-16 left-1/2 transform -translate-x-1/2'
+      className='absolute max-w-lg px-6 py-8 text-sm bg-zinc-800 rounded-lg shadow-xl md:text-base top-16 md:left-1/2 lg:left-1/2 md:transform lg:transform md:-translate-x-1/2 lg:-translate-x-1/2'
       style={{ maxWidth: 'calc(100%)' }}>
       <div className='tracking-wider'>
         <p className='mb-4 md:mb-6 lg:mb-8'>
