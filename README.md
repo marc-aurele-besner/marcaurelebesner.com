@@ -1,25 +1,29 @@
-# Marc-Aurele Besner Website 
+# MarcAureleBesner.com V2 Website
 
-## Made w/ React JS Landing Page Template (https://github.com/issaafalkattan/React-Landing-Page-Template)
+This website is made with react, react-thre-fiber, react-spring and typescript
 
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
+Want to use this website as your template for your next project?
 
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
+## 1. Clone down the repository
 
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
+    ```bash
+    git clone https://github.com/marc-aurele-besner/marcaurelebesner.com
+    ```
 
+## 2. Enter the repo directory
 
-## Credits
+    ```bash
+    cd marcaurelebesner.com-v2
+    ```
 
-##### React JS Landing Page Template
-<a href="https://github.com/issaafalkattan/React-Landing-Page-Template">React JS Landing Page Template </a>
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+## 3. Install the dependencies
+
+    ```bash
+    yarn
+    ```
+
+## 4. Start localhost server
+
+    ```bash
+    yarn start
+    ```
