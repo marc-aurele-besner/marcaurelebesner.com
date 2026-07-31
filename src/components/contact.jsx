@@ -1,5 +1,9 @@
 import { useState } from 'react'
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
+
+// `emailjs-com` is deprecated; `@emailjs/browser` requires initializing with
+// a public key instead of accepting it inline with each `sendForm` call.
+emailjs.init({ publicKey: 'user_cO7i9lY0LQpelKqXwQnB7' })
 
 const initialState = {
   name: '',
@@ -20,7 +24,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'service_1sb6a0i', 'template_x97lb1h', e.target, 'user_cO7i9lY0LQpelKqXwQnB7'
+        'service_1sb6a0i', 'template_x97lb1h', e.target
       )
       .then(
         (result) => {
